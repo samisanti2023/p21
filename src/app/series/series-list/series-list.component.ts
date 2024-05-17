@@ -30,6 +30,16 @@ export class SeriesListComponent implements OnInit {
       this.series = books;
     });
   }
+  average(){
+    let num=0;
+    let denom=0;
+    this.series.forEach(element => {
+      denom+=1;
+      num+=element.seasons;
+      
+    });
+    return num/denom;
+  }
 
 
 }

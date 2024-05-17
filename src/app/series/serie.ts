@@ -3,7 +3,7 @@ export class Serie {
   id: number;
   name: string;
   channel: string;
-  seasons: string;
+  seasons: number;
   description: string;
   webpage: string;
   poster: string;
@@ -12,7 +12,7 @@ export class Serie {
     id: number,
     name: string,
     channel: string,
-    seasons: string,
+    seasons: number,
     description: string,
     webpage: string,
     poster: string
